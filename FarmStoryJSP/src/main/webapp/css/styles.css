@@ -1,0 +1,267 @@
+/* 장보기 > 상품목록 */
+.shopping-list {
+    position: relative;
+    width: 1920px;
+    height: 1214px;
+    overflow-y: scroll;
+    background: #FFFFFF;
+  }
+  
+  /* Header */
+  .header {
+    position: absolute;
+    height: 142px;
+    left: 470px;
+    right: 470px;
+    top: 0px;
+    background: url('header.png');
+  }
+  
+  /* Link → HOME | */
+  .home-link {
+    position: absolute;
+    width: 192.75px;
+    height: 14px;
+    left: 787.45px;
+    top: 17px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #111111;
+  }
+  
+  /* head_txt_img.png */
+  .header-text-img {
+    position: absolute;
+    width: 229px;
+    height: 15px;
+    left: 751px;
+    top: 59px;
+    background: url('head_txt_img.png');
+  }
+  
+  /* Link → logo.png */
+  .logo-link {
+    position: absolute;
+    width: 190px;
+    height: 64px;
+    left: 395px;
+    top: 20px;
+    background: url('logo.png');
+  }
+  
+  /* List */
+  .list {
+    position: absolute;
+    height: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+  }
+  
+  /* Item */
+  .item {
+    flex: 1;
+    background: url('item.png');
+  }
+  
+  /* head_menu_badge.png */
+  .head-menu-badge {
+    position: absolute;
+    height: 34px;
+    left: 50%;
+    right: 31.12%;
+    top: -16px;
+    background: url('head_menu_badge.png');
+  }
+  
+  /* Background */
+  .background {
+    position: absolute;
+    height: 184px;
+    left: 470px;
+    right: 470px;
+    top: 142px;
+    background: url('background.jpg');
+  }
+  
+  /* sub_top_tit2.png */
+  .sub-top-tit {
+    position: absolute;
+    width: 186px;
+    height: 37px;
+    left: 10px;
+    bottom: 10px;
+    background: url('sub_top_tit2.png');
+  }
+  
+  /* Section */
+  .section {
+    position: absolute;
+    height: 758px;
+    left: 470px;
+    right: 470px;
+    top: 326px;
+    display: flex;
+  }
+  
+  /* Aside */
+  .aside {
+    width: 176px;
+    height: 650px;
+    background: url('aside.png');
+  }
+  
+  /* sub_aside_cate2_tit.png */
+  .aside-title {
+    width: 103px;
+    height: 45px;
+    margin: 16px;
+    background: url('sub_aside_cate2_tit.png');
+  }
+  
+  /* List */
+  .aside-list {
+    width: 175px;
+    height: 233px;
+    background: url('aside_list.png');
+  }
+  
+  /* Item → Link */
+  .aside-item-link {
+    background: url('aside_item_link.png');
+  }
+  
+  /* Article */
+  .article {
+    width: 802px;
+    height: 758px;
+  }
+  
+  /* Link → 전체(10) | */
+  .total-link {
+    position: absolute;
+    width: 141.42px;
+    height: 14px;
+    left: 40px;
+    top: 113px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.8125px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #111111;
+  }
+  
+  /* Table */
+  table {
+    box-sizing: border-box;
+    position: absolute;
+    height: 564px;
+    left: 40px;
+    right: 0;
+    top: 139px;
+    width: calc(100% - 40px);
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-top: 1px solid #111111;
+    border-bottom: 1px solid #111111;
+  }
+  
+  thead th {
+    box-sizing: border-box;
+    height: 38px;
+    background: #E5ECEF;
+    border-bottom: 1px solid #EEEEEE;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+  }
+  
+  tbody td {
+    box-sizing: border-box;
+    height: 105px;
+    border-bottom: 1px solid #EEEEEE;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #111111;
+  }
+  
+  tbody td img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Footer */
+  .footer {
+    box-sizing: border-box;
+    position: absolute;
+    height: 130px;
+    left: 470px;
+    right: 470px;
+    top: 1084px;
+    border-top: 1px solid #D1CAB2;
+  }
+  
+  /* footer_logo.png */
+  .footer-logo {
+    position: absolute;
+    width: 174px;
+    height: 64px;
+    left: 0px;
+    top: 1px;
+    background: url('footer_logo.png');
+  }
+  
+  /* (주)팜스토리 */
+  .footer-text {
+    position: absolute;
+    width: 720.68px;
+    height: 54px;
+    left: 243.52px;
+    top: 27px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.8281px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #585858;
+  }
+  
+  /* Emphasis → Copyright(C)홍길동 All rights reserved. */
+  .footer-emphasis {
+    position: absolute;
+    width: 206.62px;
+    height: 14px;
+    left: 243.52px;
+    top: 83px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.875px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    color: #888888;
+  }
+  

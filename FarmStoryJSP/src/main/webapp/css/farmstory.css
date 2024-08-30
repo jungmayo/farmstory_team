@@ -1,0 +1,1020 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: 12px 'noto sans korean';
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+header{
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+header > div {
+  width: 100%;
+  box-sizing: border-box;
+}
+header > div >* {
+  width: 980px;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+header > div > .top {
+  position: relative;
+  height: 92px;
+}
+
+.top > p {
+  float: right;
+}
+
+.top > .headerLogo {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  margin-left: -95px;
+}
+.top > .headerTxt {
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+  margin-left: -95px;
+}
+
+header > div > nav {
+  height: 50px;
+}
+
+header div>nav>ul>li {
+  float: left;
+  height: 100%;
+}
+
+header div>nav>ul>li>a {
+  display: block;
+  width: 196px;
+  height: 100%;
+  background-image: url("../images/head_menu_line.png");
+  background-repeat: no-repeat;
+  background-position: -2px -7px;
+  box-sizing: border-box;
+  position: relative;
+}
+.nav >li>a > img {
+  padding-top: 5px;
+  width: auto;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.navInfo > img:hover {
+  content : url("../images/head_menu1_ov.png")
+}
+.navShop > img:nth-child(1):hover{
+  content : url("../images/head_menu2_ov.png")
+}
+.navFarm > img:hover {
+  content : url("../images/head_menu3_ov.png")
+}
+.navEven > img:hover{
+  content : url("../images/head_menu4_ov.png")
+}
+.navComm > img:hover {
+  content : url("../images/head_menu5_ov.png")
+}
+
+.navShop > img:nth-child(2) {
+  position: absolute;
+  left : 95px;
+  top : -25px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+footer > div {
+  width: 980px;
+  height: 120px;
+  margin: 0 auto;
+  position: relative;
+}
+footer > div > img {
+  position: absolute;
+  top : -5px;
+}
+footer > div > article > .footerinfo {
+  line-height: 18px;
+  font-size: 10.5px;
+  position: absolute;
+  left: 250px;
+  top : 20px;
+  color: #636262;
+}
+footer > div > article > .copyright {
+  color : gray;
+  position: absolute;
+  left: 250px;
+  bottom : 30px;
+}
+footer > div > article > .pageVer {
+  position: absolute;
+  right : 0px;
+  bottom : 30px;
+  color : gray;
+}
+
+
+
+/* !!!!!!!header - footer Setting!!!!!!!*/
+
+
+
+
+
+.marketList main {
+	height: auto;
+	width: 980px;
+	margin: 0 auto;
+}
+
+.marketList strong {
+	font-weight: bold;
+}
+
+.marketList del {
+	color: #777;
+	font-size: 9px;
+}
+
+.marketList .titleEvent {
+	width: 980px;
+	height: 184px;
+	background-image: url("../images/sub_top_bg.jpg");
+	position: relative;
+}
+
+.marketList .titleEvent>img {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+
+.marketList .mainSection {
+	display: flex;
+}
+
+.marketList .mainAside {
+	width: 176px;
+	height: 650px;
+	box-sizing: border-box;
+	background-image: url("../images/sub_aside_bg_line.png");
+	background-repeat: no-repeat;
+	background-position: 169px;
+}
+
+.marketList .mainAside>.eventList {
+	margin: 16px 16px;
+}
+
+.marketList .asideList {
+	width: 175px;
+	height: 233px;
+	background-image: url("../images/sub_aside_bg_lnb.png");
+	position: relative;
+}
+
+.marketList .asideList>li:nth-child(1) {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.marketList .articleNav {
+	width: 762px;
+	height: 72px;
+	margin-left: 0;
+	border-bottom: 1px solid #c2c2c2;
+	position: relative;
+}
+
+.marketList .articleNav>img {
+	position: absolute;
+	bottom: 5px;
+}
+
+.marketList .articleNav>p {
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+}
+
+.marketList .articleNav>p>strong {
+	color: rgb(124, 165, 64)
+}
+
+.marketList .mainArticle>p {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.marketList .mainArticle {
+	margin: 0 0;
+	width: 762px;
+	height: auto;
+	box-sizing: border-box;
+}
+
+/* container 스타일 */
+.marketList .container {
+	display: flex;
+	margin: 20px;
+}
+/* table 스타일 */
+.marketList table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #fff;
+	text-align: center;
+}
+
+.marketList thead {
+	padding: 10px;
+	background-color: #EEE;
+	border-top: 1px solid #111;
+}
+
+.marketList tbody tr:last-child {
+	border-bottom: 1px solid #111;
+}
+
+.marketList tr {
+	border-bottom: 1px solid #EEEEEE;
+}
+.marketList td.thumb > a[href] > img {
+	width: 80px;
+	height: 80px;
+}
+.marketList tr td:nth-child(1) {
+	width: 100px;
+}
+.marketList tr td:nth-child(2) {
+	color: #777;
+}
+
+.marketList tr td:nth-child(3) {
+	text-align: left;
+}
+
+.marketList tr td:nth-child(5) {
+	font-size: 9px;
+}
+
+.marketList th,
+.marketList td {
+	padding: 10px;
+	text-align: center;
+}
+
+.marketList td del:nth-child(3) {
+	font-size: 12px;
+}
+
+.marketList .listnumber {
+	text-align: center;
+}
+.marketList .pagination {
+    text-align: center; /* 중앙 정렬 */
+    margin: 10px 0; /* 위아래 여백 추가 */
+}
+
+.marketList .listnumber :hover {
+	opacity: 0.9;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+.marketView main {
+    height: auto;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.marketView strong {
+    font-weight: bold;
+}
+
+.marketView del {
+    color: #777;
+    font-size: 9px;
+}
+
+.marketView .titleEvent {
+    width: 980px;
+    height: 184px;
+    background-image: url("../images/sub_top_bg.jpg");
+    position: relative;
+}
+
+.marketView .titleEvent>img {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.marketView .mainSection {
+    display: flex;
+}
+
+.marketView .mainAside {
+    width: 176px;
+    height: 650px;
+    box-sizing: border-box;
+    background-image: url("../images/sub_aside_bg_line.png");
+    background-repeat: no-repeat;
+    background-position: 169px;
+}
+
+.marketView .mainAside>.eventList {
+    margin: 16px 16px;
+}
+
+.marketView .asideList {
+    width: 175px;
+    height: 233px;
+    background-image: url("../images/sub_aside_bg_lnb.png");
+    position: relative;
+}
+
+.marketView .asideList>li:nth-child(1) {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.marketView .articleNav {
+    width: 762px;
+    height: 72px;
+    margin-left: 0;
+    border-bottom: 1px solid #c2c2c2;
+    position: relative;
+}
+
+.marketView .articleNav>img {
+    position: absolute;
+    bottom: 5px;
+}
+
+.marketView .articleNav>p {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+}
+
+.marketView .articleNav>p>strong {
+    color: rgb(124, 165, 64)
+}
+
+.marketView .mainArticle>p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.marketView .mainArticle {
+    margin: 0 0;
+    width: 762px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+/* container 스타일 */
+.marketView .container {
+    display: flex;
+    margin: 20px;
+    margin-bottom: 1px;
+}
+
+/* table 스타일 */
+.marketView table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    text-align: center;
+    border-top: 2px solid #E7E7E7;
+    border-bottom: 2px solid #E7E7E7;
+}
+
+.marketView thead {
+    padding: 10px;
+    background-color: #EEE;
+    
+}
+.marketView .colorRed{
+    color: #C20A0A;
+    font-weight: 700;
+}
+
+.marketView th,
+.marketView td {
+    padding: 10px;
+    text-align: left;
+}
+.marketView span{
+    color: #777;
+}
+
+.marketView .listnumber {
+    text-align: center;
+}
+
+.marketView .listnumber :hover {
+    opacity: 0.9;
+    text-decoration: underline;
+}
+.marketView input[type="text"]{
+	background: white;
+	border: none;
+	color : black;
+}
+/* 추가된 스타일 */
+.marketView .product-info input[type="number"]{
+	width: 64px;
+}
+.marketView .product-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.marketView .product-info .thumb {
+    width: 240px;
+    height: 240px;
+}
+
+.marketView .product-details {
+    flex-grow: 1;
+}
+.marketView .product-details img{
+	width: 700px;
+	height: auto;
+}
+
+.marketView .product-details table {
+    width: 100%;
+}
+
+/* 버튼 스타일 */
+.marketView .button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3px;
+    margin-top: 10px; 
+}
+
+.marketView .button-container button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.marketView #cart-button {
+    background-color: #769B0A;
+    color: white;
+}
+
+.marketView #buy-button {
+    background-color: #960D1A;
+    color: white;
+}
+/* 제목 스타일 */
+.marketView .section-title {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.marketView .changeInformation tr{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+}
+.marketView .changeInformation tr th{
+    border-right: 1px solid #E7E7E7;
+}
+.marketView .countfruitDesign{
+    
+    border-radius: 3px;
+}
+    
+    
+    
+    
+    
+    
+.marketCart input,
+.marketCart textarea {outline:none;}
+.marketCart #wrapper {
+    width: 100%;
+    height: 100%;
+}
+.marketCart main {
+    width: 980px;
+    height: auto;
+    top: 326px;
+    left: 470px;
+    margin: 0 auto;
+}
+.marketCart main .background {
+    position: relative;
+    width: 980px;
+    height: 184px;
+    background-image: url(../images/sub_top_bg.jpg);
+}
+.marketCart main .background > img {
+    position: absolute;
+    top: 137px;
+    left: 10px;
+}
+.marketCart main > section {
+    display: flex;
+    width: 980px;
+    height: 743px;
+}
+.marketCart main section aside {
+    position: relative;
+    width: 176px;
+    height: 650px;
+    background-image: url('../images/sub_aside_bg_line.png'); /* 라인 이미지 경로 */
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+}
+.marketCart .intro {
+    margin: 16px 16px;
+}
+.marketCart .image > img {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.marketCart .sideimage {
+    position: relative;
+    width: 175px;
+    height: 233px;
+    background-image: url("../images/sub_aside_bg_lnb.png");
+}
+.marketCart .sideimage .greet img:nth-child(1) { position:absolute; top :26px; }
+.marketCart .sideimage .way img:nth-child(1) { position:absolute; top: 61px; }
+
+
+.marketCart main section article {
+    flex-grow: 1;
+    height: 743px;
+    position: relative;
+}
+.marketCart .articleNav {
+	width: 762px;
+	height: 72px;
+	margin-left: 40px;
+	border-bottom: 1px solid #c2c2c2;
+	position: absolute;
+}
+.marketCart .articleNav > img {
+	position: absolute;
+	bottom: 5px;
+}
+.marketCart .articleNav > p {
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+}
+.marketCart .articleNav > p > strong {
+	color : rgb(124, 165, 64)
+}
+
+.marketCart .all {
+    width: 95.2px;
+    height: 14px;
+    position: absolute;
+    top: 113px;
+    left: 40px;
+    white-space: nowrap;
+}
+.marketCart .cart {
+    width: 762px;
+    height: 332px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    position: absolute;
+    top: 139px;
+    left: 40px;
+}
+.marketCart .cart thead {
+    width: 762px;
+    height: 38px;
+    border-bottom: 1px solid  rgb(199, 199, 199);
+    background-color: #EEEEEE;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+.marketCart .cart thead #tt {
+    width: 76.19px;
+    height: 38px;
+    
+}
+.marketCart .cart thead th:nth-of-type(2) {
+    width: 80px;
+    height: 38px;
+    
+}
+.marketCart .cart thead th:nth-of-type(4) {
+    width: 148.69px;
+    height: 38px;
+    
+}
+.marketCart .cart tbody {
+    width: 762px;
+    height: 293px;
+    text-align: center;
+    
+}
+.marketCart .cart > tbody > tr:nth-of-type(2){
+    border-top: 1px solid rgb(199, 199, 199);
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.marketCart .cart > tbody > tr:nth-of-type(3){
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.marketCart .cart > tbody > tr > td > a > img {
+    width: 60px;
+    height: 60px;
+    height: auto;
+}
+
+.marketCart .cart tbody #dd {
+    width: 76.19px;
+    height: 85px;
+    
+}
+.marketCart .cart tbody th:nth-of-type(2) {
+    width: 80px;
+    height: 85px;
+   
+}
+.marketCart .cart tbody th:nth-of-type(4) {
+    width: 148.69px;
+    height: 85px;
+    
+}
+
+.marketCart .total {
+    width: 304.8px;
+    height: 262px;
+    position: relative;
+    top: 481px;
+    left: 497.2px;
+    border: 1px solid rgb(124, 124, 124);
+    box-sizing: border-box;
+}
+.marketCart .downtable {
+    width: 290.8px;
+    height: 201px;
+    position: absolute;
+    top: 7px;
+    left: 6px;
+    border-top: 1.5px solid rgb(0, 0, 0);
+    border-bottom: 1.5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+.marketCart .downtable > caption {
+    position: absolute;
+    width: 48.2px;
+    height: 14px;
+    top: 7px;
+    left: 121.39px;
+}
+.marketCart .downtable tbody {
+    position: absolute;
+    width: 286.8px;
+    height: 166px;
+    top: 32px;
+    left: 2px;
+}
+.marketCart .downtable > tbody > tr {
+    width: 286.8px;
+    height: 28px;
+   
+}
+.marketCart .downtable > tbody > tr > td:nth-child(1) {
+    width: 143.4px;
+    padding-left: 10px;
+    line-height: 12.48px;
+    font-size: 12px;
+    font-weight: 550;
+}
+.marketCart .downtable > tbody > tr > td:nth-child(2) {
+    width: 143.4px;
+    padding-left: 80px;
+    line-height: 12.48px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.marketCart .downtable > tbody> tr:nth-of-type(6) > td:nth-of-type(2) {
+    color: red;
+    font-weight: bold;
+}
+
+.marketCart .total input[type=button]{
+    width: 290.8px;
+    height: 37px;
+    position: absolute;
+    top: 218px;
+    left: 6px;
+    background-color: #960D1A;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.marketCart article > a> input[type=button]{
+    position: absolute;
+    width: 60px;
+    height: 29px;
+    top: 481px;
+    left: 40px;
+    background-color: #960D1A;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+      
+      
+      
+      
+.marketOrder main {
+	height: auto;
+	width: 980px;
+	margin: 0 auto;
+}
+
+.marketOrder strong {
+	font-weight: bold;
+}
+
+.marketOrder del {
+	color: #777;
+	font-size: 9px;
+}
+
+.marketOrder .titleEvent {
+	width: 980px;
+	height: 184px;
+	background-image: url("../images/sub_top_bg.jpg");
+	position: relative;
+}
+
+.marketOrder .titleEvent img {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+
+.marketOrder .mainSection {
+	display: flex;
+}
+
+.marketOrder .mainAside {
+	width: 176px;
+	height: 650px;
+	box-sizing: border-box;
+	background-image: url("../images/sub_aside_bg_line.png");
+	background-repeat: no-repeat;
+	background-position: 169px;
+}
+
+.marketOrder .mainAside>.eventList {
+	margin: 16px 16px;
+}
+
+.marketOrder .asideList {
+	width: 175px;
+	height: 233px;
+	background-image: url("../images/sub_aside_bg_lnb.png");
+	position: relative;
+}
+
+.marketOrder .asideList>li:nth-child(1) {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.marketOrder .articleNav {
+	width: 762px;
+	height: 72px;
+	margin-left: 0;
+	border-bottom: 1px solid #c2c2c2;
+	position: relative;
+}
+
+.marketOrder .articleNav>img {
+	position: absolute;
+	bottom: 5px;
+}
+
+.marketOrder .articleNav>p {
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+}
+
+.marketOrder .articleNav>p>strong {
+	color: rgb(124, 165, 64)
+}
+
+.marketOrder .mainArticle>p {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.marketOrder .mainArticle {
+	margin: 0 0;
+	width: 762px;
+	height: auto;
+	box-sizing: border-box;
+}
+
+.marketOrder .market_ListSet img {
+	width: 60px;
+	height: 60px;
+}
+/* container 스타일 */
+.marketOrder .container {
+	display: flex;
+	margin: 20px;
+}
+
+/* table 스타일 */
+.marketOrder table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #fff;
+	text-align: center;
+}
+
+.marketOrder thead {
+	padding: 10px;
+	background-color: #EEE;
+	border-top: 1px solid #111;
+}
+
+.marketOrder tbody tr:last-child {
+	border-bottom: 1px solid #111;
+}
+
+.marketOrder tr {
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.marketOrder tr td:nth-child(2) {
+	color: #777;
+}
+
+.marketOrder tr td:nth-child(3) {
+	text-align: left;
+}
+
+.marketOrder tr td:nth-child(5) {
+	font-size: 9px;
+}
+
+.marketOrder th,
+.marketOrder td {
+	padding: 10px;
+	text-align: center;
+}
+
+.marketOrder td del:nth-child(3) {
+	font-size: 12px;
+}
+
+.marketOrder .listnumber {
+	text-align: center;
+}
+
+.marketOrder .listnumber :hover {
+	opacity: 0.9;
+	text-decoration: underline;
+}
+
+.marketOrder .tableContainer {
+	display: flex;
+	justify-content: space-between; /* 테이블 사이의 공간을 균등하게 분배 */
+	margin-top: 20px; /* 필요에 따라 여백 추가 */
+}
+
+.marketOrder .orderInformation {
+	width: 448px;
+	height: 440px;
+	margin-right: 10px; /* 오른쪽 테이블과의 간격 */
+}
+
+.marketOrder .orderInformation caption {
+	text-align: left;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.marketOrder .orderInformation tr td:first-child {
+	background-color: #F7F7F7;
+}
+
+.marketOrder .orderInformation tr {
+	border-bottom: 1px solid #D7D7D7;
+}
+
+.marketOrder .orderInformation tr:first-child {
+	border-top: 1px solid #BE0808;
+}
+
+.marketOrder .downtable {
+	width: 305px;
+	height: 209px;
+	border: 1px solid #D7D7D7;
+	box-sizing: border-box;
+	border-collapse: collapse;
+}
+
+.marketOrder .downtable thead {
+	padding: 10px;
+	background-color: #EEE;
+	border: none;
+	border-bottom: 1px solid #111;
+}
+
+.marketOrder .downtable tr {
+	border: none; /* 다른 모든 경계선을 없앰 */
+	background-color: #fff;
+}
+
+.marketOrder .orderInformation td {
+	text-align: left; /* 왼쪽 정렬 */
+}
+
+.marketOrder .downtable td {
+	text-align: left; /* 왼쪽 정렬 */
+	padding: 8px;
+}
+
+.marketOrder .redbutton {
+	background-color: #960D1A;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.marketOrder .full-width {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.marketOrder .total-amount {
+	color: red;
+}
+
+.marketOrder .orderInformation input[type="text"] {
+	margin-bottom: 3px; /* 입력 필드 간의 여백 추가 */
+}
